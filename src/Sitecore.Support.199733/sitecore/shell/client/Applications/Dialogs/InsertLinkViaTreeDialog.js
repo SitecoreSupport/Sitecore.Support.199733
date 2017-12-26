@@ -77,13 +77,22 @@
         var targetWindow = targetWindowValue.$displayName.trim();
 
         switch (targetWindow) {
-          case 'Active Browser':
+            case 'Active Browser':
+            case 'Aktiver Browser':
+            case 'Aktiv browser':
+            case 'アクティブ ブラウザー':
             targetWindow = "";
             break;
-          case 'New Browser':
+            case 'New Browser':
+            case 'Neuer Browser':
+            case 'Ny browser':
+            case '新しいブラウザー':
             targetWindow = "_blank";
             break;
-          case "Custom":
+            case "Custom": 
+            case "angepasst":
+            case "Brugerdefineret":
+            case 'カスタム':
             targetWindow = customUrlID.get("text");
             break;
         }
