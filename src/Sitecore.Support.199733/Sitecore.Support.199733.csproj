@@ -55,7 +55,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.199733.config" />
     <Content Include="sitecore\shell\client\Applications\Dialogs\InsertLinkViaTreeDialog.js" />
   </ItemGroup>
   <ItemGroup>
